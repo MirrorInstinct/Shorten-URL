@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mirrorinstinct.github.io/url-shortening-api/)
+- Live Site URL: [Add live site URL here](https://mirrorinstinct.github.io/shorten-url/)
 
 ### Built with
 
@@ -62,5 +62,5 @@ In the future, I will continue to work on my React skills especially and try to 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Shorten URL](https://mirrorinstinct.github.io/shorten-url/)
 - Frontend Mentor - [@MirrorInstinct](https://www.frontendmentor.io/profile/MirrorInstinct)
