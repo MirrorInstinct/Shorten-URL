@@ -15,8 +15,8 @@ body {
       white 0%,
       white 33%,
 
-      rgb(230, 230, 230) 33%,
-      rgb(230, 230, 230) 100%
+      /* rgb(230, 230, 230) 33%,
+      rgb(230, 230, 230) 100% */
   );
   min-height: 100vh;
 }
@@ -71,9 +71,7 @@ body {
 
 .description{
   display: flex;
-  font-size: 20px;
-  margin-top: 100px;   
-  
+  font-size: 20px;  
   padding: 40px 150px;
 } 
 
@@ -146,7 +144,7 @@ body {
 }
 
 #shortUrlContainer {
-  padding: 40px;
+  padding: 20px;
   width: 60%;
   border-radius: 10px;
   margin: 0 auto;
@@ -177,6 +175,11 @@ body {
 #shortUrlContainer button:hover {
   cursor: pointer;
   background-color: rgb(0, 190, 190);
+}
+
+.stat-container {
+  background-color: rgb(230, 230, 230);
+  padding: 50px 0;
 }
 
 .stat-container hr {
@@ -305,7 +308,6 @@ body {
   background-image: url("assets/images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-color: rgb(58, 48, 83);
-  margin-top: 20vh;
   text-align: center;
   padding: 50px;
 
@@ -345,6 +347,72 @@ body {
   cursor: pointer;
   padding: 20px 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .topnav {
+    padding: 40px 50px
+  }
+
+  .description{
+    padding: 40px 50px;
+  }
+
+  #url-box{
+    width: 50vw;
+  }
+
+  #url-container {
+    width: 80%;
+  }
+
+  .stat-info {
+    display: flex;
+    margin-top: 50px;
+  
+    padding: 100px 50px;
+  }
+
+  .info-one {
+    width: 20%;
+  }
+
+  .info-one h3{
+    font-size: 2vw;
+  }
+
+  .info-one p{
+    font-size: 1.5vw;
+  }
+
+  .info-two {
+    width: 20%;
+  }
+
+  .info-two h3{
+    font-size: 2vw;
+  }
+
+  .info-two p{
+    font-size: 1.5vw;
+  }
+
+  .info-three {
+    width: 20%;
+  }
+
+  .info-three h3{
+    font-size: 2vw;
+  }
+
+  .info-three p{
+    font-size: 1.5vw;
+  }
+}
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .topnav {
@@ -427,10 +495,21 @@ body {
       padding: 20px;
   }
 
+  #url-box {
+    width: 84%;
+    margin-left: 8px;
+  }
+
   #shortBtn {
       padding: 15px;
       width: 95%;
       margin-top: 10px;
+      margin-left: 8px;
+  }
+
+  .stat-container {
+    background-color: rgb(230, 230, 230);
+    padding: 10px 0 130px 0;
   }
 
   .stat-header {
@@ -445,7 +524,6 @@ body {
   .stat-info {
       display: flex;
       flex-direction: column;
-      margin-top: 50px;
       padding: 0;
   }
 
@@ -454,14 +532,39 @@ body {
       text-align: center;
   }
 
+  .info-one h3 {
+    font-size: 5vw;
+  }
+
+  .info-one p {
+    font-size: 3vw;
+  }
+
+
   .info-two {
       width: 80%;
       text-align: center;
   }
 
+  .info-two h3 {
+    font-size: 5vw;
+  }
+
+  .info-two p {
+    font-size: 3vw;
+  }
+
   .info-three {
       width: 80%;
       text-align: center;
+  }
+
+  .info-three h3 {
+    font-size: 5vw;
+  }
+
+  .info-three p {
+    font-size: 3vw;
   }
 
   .boost {
